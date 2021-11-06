@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+/* Container */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    background-color: #2343aa;
+  }
+
+
+h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+/* Login */
+#div_login{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 470px;
+    height: 270px;
+    box-shadow: 0px 2px 2px 0px  gray;
+    margin: 0 auto;
+    color: lightblue;
+    background-color: white;
+}
+
+#div_login h1{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    color: #2343aa;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#div_login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+#div_login .textbox{
+    width: 96%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#div_login input[type=submit]{
+    padding: 7px;
+    width: 100px;
+    background-color: darkgray;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button{
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    margin: auto;
+}
+
+.header{
+    color: #035397;
+    border: 0.1px solid white;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    background: white;
+    background-clip: padding-box;
+    box-shadow: 0px 3px 3px 0px black;
+}
